@@ -1,0 +1,31 @@
+# Ignore build artifacts
+/dist/
+/tmp/
+/*.html
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore .idea directory (if using WebStorm)
+/.idea/
+
+# Ignore .vscode directory (if using Visual Studio Code)
+/.vscode/
+
+# Ignore Web Content folder in Eclipse
+/WebContent/
+
+# Ignore deployment files for SAP Cloud Platform
+/metadata.xml
+/neo-app.json
+/package.json
+/package-lock.json
+/sap-ui-cachebuster-info.json
+/sap-ui-version.json
+
+# Ignore SAP HANA-specific files
+/*.hdbsynonym
+/*.hdbview
+
+# Ignore log files
+*.log
